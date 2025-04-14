@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DCST Homepage</title>
+    <!-- Add Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #2980b9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 400px;
+            background: #3498db;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile .logo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+
+        .profile h2 {
+            color: white;
+            margin-top: 10px;
+        }
+
+        .social-icons {
+            margin: 20px 0; /* Add spacing above and below the icons */
+            display: flex;
+            justify-content: center; /* Center the icons horizontally */
+            gap: 15px; /* Add space between the icons */
+        }
+
+        .social-icon {
+            display: inline-block;
+            font-size: 30px; /* Increase icon size */
+            color: white; /* Default icon color */
+            background-color: #2980b9; /* Add a background color */
+            width: 50px;
+            height: 50px;
+            line-height: 50px; /* Vertically center the icon */
+            text-align: center; /* Horizontally center the icon */
+            border-radius: 50%; /* Make the icons circular */
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .social-icon:hover {
+            transform: scale(1.2); /* Slight zoom effect on hover */
+            background-color: #f39c12; /* Change background color on hover */
+            color: white; /* Ensure the icon color stays white */
+        }
+
+        .btn {
+            display: block;
+            background: white;
+            color: #2980b9;
+            text-decoration: none;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #ecf0f1;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="https://i.ibb.co/yn4Lkbw4/APC-LOGO.jpg" alt="DCST Logo" class="logo">
+            <h2>@DCST</h2>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/finik.dcst.apcrp?mibextid=ZbWKwL" class="social-icon" target="_blank" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.instagram.com/finik.dcst.apcrp1/" class="social-icon" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://x.com/finik_dcst?lang=bn" class="social-icon" target="_blank" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.linkedin.com/groups/14605049" class="social-icon" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+        </div>
+        <div class="buttons">
+            
+            <a href="#" class="btn">Virtual FINIK 7.0</a>
+            
+            <a href="https://apcrp-dcst.github.io/FINIK/" class="btn">Virtual FINIK 6.0</a>
+            <a href="https://drive.google.com/file/d/1Gpev-BGi73u08nFVE-CBLjQ-3F4kkE3n/view?usp=drivesdk/nvFu/download" class="btn">FINIK 6.0 PDF</a>
+            <a href="https://drive.google.com/file/d/16e2ceWvdJ_5_eSxCCADN6ureDpYXJaX-/view?usp=drivesdk/uqLi/download" class="btn">FINIK 5.0</a>
+            <a href="https://apcrp-dcst.github.io/DCST-WEBSITE/" class="btn">Departmental Website</a>
+            <a href="https://forms.gle/7MYLV3Z9vhr9tfCu5" class="btn">Website Feedback</a>
+        </div>
+    </div>
+</body>
+</html>
